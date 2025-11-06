@@ -1,0 +1,1649 @@
+{
+  "SiteSkuDemands": [
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "SiteId": 0,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 10,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 10,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "SiteId": 1,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 40,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 400,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 4,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 4,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 40,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 400,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 400,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 400,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "SiteId": 2,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 60,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 600,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 6,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 6,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 60,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 600,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 600,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 600,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "SiteId": 0,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10000000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 10,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 10,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 150,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10000000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "SiteId": 1,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 50,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5000000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 5,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 5,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 50,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 500,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 150,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 500,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 2500000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "SiteId": 2,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 50,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5000000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 5,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 5,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 50,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 500,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 150,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 500,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7500000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "SiteId": 0,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 10000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 150,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 10000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "SiteId": 1,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 300,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 3000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 30,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 30,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 300,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 3000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 150,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 3000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 3000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "SiteId": 2,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 700,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 7000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 70,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 70,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 700,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 7000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 150,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 7000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku4",
+      "SiteId": 0,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 10000,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 100000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 10000,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 100000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 100000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 100000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku4",
+      "SiteId": 1,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 8000,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 80000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 800,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 800,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 8000,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 8000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 80000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 80000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku4",
+      "SiteId": 2,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 2000,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 20000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 2000,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 2000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 20000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 20000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku5",
+      "SiteId": 2,
+      "MonthOfYear": "2023-11",
+      "Budget": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 10,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 10,
+        "Valid": true
+      },
+      "AvgSellPrice": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 100,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "AvgPurchasePrice": {
+        "Float64": 15,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 1000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    }
+  ],
+  "SiteGroupDemands": [
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1",
+      "GroupBy": "category",
+      "SiteId": 0,
+      "NumberOfSkus": 1120,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 11200,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10111000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 1120,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 1120,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 11200,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 112000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 112000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10111000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1",
+      "GroupBy": "category",
+      "SiteId": 1,
+      "NumberOfSkus": 839,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 8390,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5083400,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 839,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 839,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 8390,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 83900,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 83900,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 2583400,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1",
+      "GroupBy": "category",
+      "SiteId": 2,
+      "NumberOfSkus": 281,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 2810,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5027600,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 281,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 281,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 2810,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 28100,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 28100,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7527600,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/2",
+      "GroupBy": "category",
+      "SiteId": 0,
+      "NumberOfSkus": 200,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10001000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 20,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 200,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 2000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 2000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10001000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/2",
+      "GroupBy": "category",
+      "SiteId": 1,
+      "NumberOfSkus": 90,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 90,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5000400,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 9,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 9,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 90,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 900,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 900,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 2500400,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/2",
+      "GroupBy": "category",
+      "SiteId": 2,
+      "NumberOfSkus": 110,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 110,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5000600,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 11,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 11,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 110,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 1100,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 1100,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7500600,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/3",
+      "GroupBy": "category",
+      "SiteId": 0,
+      "NumberOfSkus": 1100,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 11000,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 110000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 1100,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 1100,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 11000,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 110000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 110000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 110000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/3",
+      "GroupBy": "category",
+      "SiteId": 1,
+      "NumberOfSkus": 830,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 8300,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 83000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 830,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 830,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 8300,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 83000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 83000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 83000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/3",
+      "GroupBy": "category",
+      "SiteId": 2,
+      "NumberOfSkus": 270,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 2700,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 27000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 270,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 270,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 2700,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 27000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 27000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 27000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1",
+      "GroupBy": "segment",
+      "SiteId": 0,
+      "NumberOfSkus": 1120,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 11200,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10111000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 1120,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 1120,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 11200,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 112000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 112000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10111000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1",
+      "GroupBy": "segment",
+      "SiteId": 1,
+      "NumberOfSkus": 839,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 8390,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5083400,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 839,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 839,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 8390,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 83900,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 83900,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 2583400,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1",
+      "GroupBy": "segment",
+      "SiteId": 2,
+      "NumberOfSkus": 281,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 2810,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5027600,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 281,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 281,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 2810,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 28100,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 28100,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7527600,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1",
+      "GroupBy": "segment",
+      "SiteId": 0,
+      "NumberOfSkus": 1120,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 11200,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10111000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 1120,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 1120,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 11200,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 112000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 112000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10111000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1",
+      "GroupBy": "segment",
+      "SiteId": 1,
+      "NumberOfSkus": 839,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 8390,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5083400,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 839,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 839,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 8390,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 83900,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 83900,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 2583400,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1",
+      "GroupBy": "segment",
+      "SiteId": 2,
+      "NumberOfSkus": 281,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 2810,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5027600,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 281,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 281,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 2810,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 28100,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 28100,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7527600,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1/2",
+      "GroupBy": "segment",
+      "SiteId": 0,
+      "NumberOfSkus": 1100,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 1100,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 11000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 110,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 110,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 1100,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 11000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 11000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 11000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1/2",
+      "GroupBy": "segment",
+      "SiteId": 1,
+      "NumberOfSkus": 340,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 340,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 3400,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 34,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 34,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 340,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 3400,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 3400,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 3400,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1/2",
+      "GroupBy": "segment",
+      "SiteId": 2,
+      "NumberOfSkus": 760,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 760,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 7600,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 76,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 76,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 760,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 7600,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 7600,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7600,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "creator",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1/3",
+      "GroupBy": "segment",
+      "SiteId": 0,
+      "NumberOfSkus": 1010,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 10100,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 10100000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 1010,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 1010,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 10100,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 101000,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 101000,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 10100000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1/3",
+      "GroupBy": "segment",
+      "SiteId": 1,
+      "NumberOfSkus": 805,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 8050,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5080000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 805,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 805,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 8050,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 80500,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 80500,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 2580000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "GroupKey": "1/1/3",
+      "GroupBy": "segment",
+      "SiteId": 2,
+      "NumberOfSkus": 205,
+      "MonthOfYear": "2023-11",
+      "IsLatestGroup": true,
+      "Budget": {
+        "Float64": 2050,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 5020000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 205,
+        "Valid": true
+      },
+      "PickupQty": {
+        "Float64": 205,
+        "Valid": true
+      },
+      "ActualSaleValue": {
+        "Float64": 2050,
+        "Valid": true
+      },
+      "PreviousMonthSale": {
+        "Float64": 20500,
+        "Valid": true
+      },
+      "CurrentInventoryValue": {
+        "Float64": 20500,
+        "Valid": true
+      },
+      "ForecastInventoryValue": {
+        "Float64": 7520000,
+        "Valid": true
+      },
+      "CreatedBy": "creator",
+      "UpdatedBy": "user",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    }
+  ],
+  "SiteSkuDailyForecasts": [
+    {
+      "Id": 0,
+      "SiteSkuDemandId": 2,
+      "Day": 1,
+      "Forecast": 1000,
+      "SellerId": 1,
+      "CreatedBy": "system",
+      "UpdatedBy": "system",
+      "CreatedAt": "2023-11-01T00:00:00Z",
+      "UpdatedAt": "2023-11-01T00:00:00Z"
+    }
+  ],
+  "SiteGroupDailyForecasts": []
+}

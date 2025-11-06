@@ -1,0 +1,74 @@
+{
+  "Resp": {
+    "message": "Thao tác thành công"
+  },
+  "OriginalBudget": [
+    {
+      "Id": 1,
+      "SellerId": 1,
+      "CategoryId": 1,
+      "SiteId": 1,
+      "MonthOfYear": "2022-02",
+      "Budget": {
+        "Float64": 100000,
+        "Valid": true
+      },
+      "CreatedBy": "email@gmail.com",
+      "UpdatedBy": "email@gmail.com",
+      "CreatedAt": "2022-02-09T01:00:00Z",
+      "UpdatedAt": "2022-02-09T01:00:00Z"
+    },
+    {
+      "Id": 2,
+      "SellerId": 1,
+      "CategoryId": 1,
+      "SiteId": 1,
+      "MonthOfYear": "2022-03",
+      "Budget": {
+        "Float64": 2000000,
+        "Valid": true
+      },
+      "CreatedBy": "email@gmail.com",
+      "UpdatedBy": "email@gmail.com",
+      "CreatedAt": "2022-02-09T01:00:00Z",
+      "UpdatedAt": "2022-02-09T01:00:00Z"
+    }
+  ],
+  "SiteGroupDemands": [],
+  "ScheduleJobs": [
+    {
+      "Id": 1,
+      "Type": "UPDATE_SITE_GROUP_DEMAND",
+      "Status": 0,
+      "RetryCount": 0,
+      "Payload": {
+        "String": "{\"SellerId\":1,\"GroupKey\":\"1\",\"GroupBy\":\"category\",\"SiteId\":1,\"MonthOfYear\":\"2022-02\",\"Budget\":100000,\"Forecast\":100000,\"DemandIdIgnoreResetDailyForecast\":0,\"UpdatedBy\":\"email@gmail.com\"}",
+        "Valid": true
+      },
+      "Debug": {
+        "String": "",
+        "Valid": false
+      },
+      "ExecutedAt": "2022-02-09T01:00:00Z",
+      "CreatedAt": "2022-02-09T01:00:00Z",
+      "UpdatedAt": "2022-02-09T01:00:00Z"
+    },
+    {
+      "Id": 2,
+      "Type": "UPDATE_SITE_GROUP_DEMAND",
+      "Status": 0,
+      "RetryCount": 0,
+      "Payload": {
+        "String": "{\"SellerId\":1,\"GroupKey\":\"1\",\"GroupBy\":\"category\",\"SiteId\":1,\"MonthOfYear\":\"2022-03\",\"Budget\":2000000,\"Forecast\":2000000,\"DemandIdIgnoreResetDailyForecast\":0,\"UpdatedBy\":\"email@gmail.com\"}",
+        "Valid": true
+      },
+      "Debug": {
+        "String": "",
+        "Valid": false
+      },
+      "ExecutedAt": "2022-02-09T01:00:00Z",
+      "CreatedAt": "2022-02-09T01:00:00Z",
+      "UpdatedAt": "2022-02-09T01:00:00Z"
+    }
+  ]
+}

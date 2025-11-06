@@ -1,0 +1,47 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_test")
+
+filegroup(
+    name = "test_data",
+    srcs = glob(["testdata/**"]),
+)
+
+go_test(
+    name = "go_default_test",
+    srcs = [
+        "calculate_demand_test.go",
+        "sync_site_sku_demand_test.go",
+        "testmain_test.go",
+    ],
+    data = [
+        ":test_data",
+        "//app/supplychain/demand_planning_service:lite_migration_files",
+        "//app/supplychain/demand_planning_service:migration_files",
+    ],
+    deps = [
+        "//app/supplychain/demand_planning_service/api:go_default_library",
+        "//app/supplychain/demand_planning_service/config:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/adapter/kafka:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/mocks/adapter/fulfillment_strategy:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/mocks/adapter/kafka:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/mocks/adapter/whcentral:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/model:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/provider:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/repository:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/scheduler:go_default_library",
+        "//app/supplychain/demand_planning_service/internal/service:go_default_library",
+        "//app/supplychain/demand_planning_service/mocks/faker:go_default_library",
+        "//app/supplychain/demand_planning_service/pkg/constant:go_default_library",
+        "//app/supplychain/demand_planning_service/pkg/helper:go_default_library",
+        "//app/supplychain/demand_planning_service/tests:go_default_library",
+        "//app/warehouse/central-service/api:go_default_library",
+        "//library/integrationtest:go_default_library",
+        "//library/log:go_default_library",
+        "//library/test/monkey:go_default_library",
+        "@com_github_golang_protobuf//proto:go_default_library",
+        "@com_github_sebdah_goldie_v2//:go_default_library",
+        "@com_github_stretchr_testify//assert:go_default_library",
+        "@com_github_stretchr_testify//mock:go_default_library",
+        "@com_github_stretchr_testify//suite:go_default_library",
+        "@io_gorm_gorm//:go_default_library",
+    ],
+)

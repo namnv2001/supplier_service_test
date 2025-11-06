@@ -1,0 +1,41 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = [
+        "jira.go",
+        "service.go",
+        "test_container.go",
+        "tests_suite.go",
+    ],
+    importpath = "go.tekoapis.com/tekone/app/supplychain/demand_planning_service/tests",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/supplychain/demand_planning_service/api:go_default_library",
+        "//app/supplychain/demand_planning_service/config:go_default_library",
+        "//app/supplychain/demand_planning_service/pkg/constant:go_default_library",
+        "//app/supplychain/demand_planning_service/pkg/errorz:go_default_library",
+        "//app/supplychain/demand_planning_service/pkg/helper:go_default_library",
+        "//library/grpc/ctx:go_default_library",
+        "//library/grpc/logging:go_default_library",
+        "//library/log:go_default_library",
+        "@com_github_go_resty_resty_v2//:go_default_library",
+        "@com_github_golang_migrate_migrate_v4//database/mysql:go_default_library",
+        "@com_github_golang_migrate_migrate_v4//source/file:go_default_library",
+        "@com_github_grpc_ecosystem_go_grpc_middleware//:go_default_library",
+        "@com_github_grpc_ecosystem_go_grpc_middleware//validator:go_default_library",
+        "@com_github_grpc_ecosystem_go_grpc_prometheus//:go_default_library",
+        "@com_github_stretchr_testify//suite:go_default_library",
+        "@com_tekoapis_go_kitchen//log/level:go_default_library",
+        "@io_gorm_gorm//:go_default_library",
+        "@org_golang_google_grpc//:go_default_library",
+        "@org_golang_google_grpc//test/bufconn:go_default_library",
+    ],
+)
+
+filegroup(
+    name = "test_config",
+    srcs = [
+        "unittest.json",
+    ],
+)

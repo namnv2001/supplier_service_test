@@ -1,0 +1,21 @@
+{
+  "message": "Thao tác thành công",
+  "data": {
+    "daily_forecasts": [
+      {
+        "daily_forecast_id": 1,
+        "day_of_month": 10,
+        "forecast": {
+          "value": 10
+        }
+      },
+      {
+        "daily_forecast_id": 2,
+        "day_of_month": 20,
+        "forecast": {
+          "value": 20
+        }
+      }
+    ]
+  }
+}

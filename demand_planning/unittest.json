@@ -1,0 +1,12 @@
+{
+    "url": "https://jira.teko.vn",
+    "projectKey": "OMNI",
+    "username": "",
+    "password": "",
+    "mysqlHost": "mysql",
+    "mysqlPort": "3306",
+    "mysqlDatabase": "demand_planning_service",
+    "mysqlUser": "root",
+    "mysqlPass": "secret",
+    "mysqlOptions": "?parseTime=true&timeout=90s"
+}

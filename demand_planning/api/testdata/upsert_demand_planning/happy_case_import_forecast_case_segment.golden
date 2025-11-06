@@ -1,0 +1,73 @@
+{
+  "Resp": {
+    "message": "Thao tác thành công"
+  },
+  "OriginalBudget": [],
+  "SiteGroupDemands": [
+    {
+      "Id": 1,
+      "SellerId": 1,
+      "GroupKey": "1/1/2/3",
+      "GroupBy": "segment",
+      "SiteId": 1,
+      "NumberOfSkus": 20,
+      "MonthOfYear": "2022-02",
+      "IsLatestGroup": false,
+      "Budget": {
+        "Float64": 1200,
+        "Valid": true
+      },
+      "Forecast": {
+        "Float64": 15000,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "PickupQty": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "ActualSaleValue": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "PreviousMonthSale": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "CurrentInventoryValue": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "ForecastInventoryValue": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "CreatedBy": "abc@gmail.com",
+      "UpdatedBy": "abc@gmail.com",
+      "CreatedAt": "2022-02-09T01:00:00Z",
+      "UpdatedAt": "2022-02-09T01:00:00Z"
+    }
+  ],
+  "ScheduleJobs": [
+    {
+      "Id": 1,
+      "Type": "UPDATE_SITE_GROUP_DEMAND",
+      "Status": 0,
+      "RetryCount": 0,
+      "Payload": {
+        "String": "{\"SellerId\":1,\"GroupKey\":\"1/1/2/3\",\"GroupBy\":\"segment\",\"SiteId\":1,\"MonthOfYear\":\"2022-02\",\"Budget\":0,\"Forecast\":20,\"DemandIdIgnoreResetDailyForecast\":0,\"UpdatedBy\":\"email@gmail.com\"}",
+        "Valid": true
+      },
+      "Debug": {
+        "String": "",
+        "Valid": false
+      },
+      "ExecutedAt": "2022-02-09T01:00:00Z",
+      "CreatedAt": "2022-02-09T01:00:00Z",
+      "UpdatedAt": "2022-02-09T01:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "SellerId": 1,
+    "CategoryId": 1,
+    "AttributeId": 1,
+    "Level": 1,
+    "MonthOfYear": "2022-11",
+    "CreatedAt": "2022-11-01T01:00:00Z",
+    "UpdatedAt": "2022-11-01T01:00:00Z"
+  },
+  {
+    "Id": 2,
+    "SellerId": 1,
+    "CategoryId": 1,
+    "AttributeId": 2,
+    "Level": 3,
+    "MonthOfYear": "2022-11",
+    "CreatedAt": "2022-11-01T01:00:00Z",
+    "UpdatedAt": "2022-11-01T01:00:00Z"
+  }
+]

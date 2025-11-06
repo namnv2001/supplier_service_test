@@ -1,0 +1,583 @@
+{
+  "MonthlyCategories": [
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "Code": "CATE7",
+      "Path": {
+        "String": "",
+        "Valid": true
+      },
+      "Name": "category 7",
+      "ParentId": {
+        "Int32": 0,
+        "Valid": false
+      },
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 4,
+      "Code": "CATE4",
+      "Path": {
+        "String": "7/4",
+        "Valid": true
+      },
+      "Name": "category 4",
+      "ParentId": {
+        "Int32": 7,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 1,
+      "Code": "CATE1",
+      "Path": {
+        "String": "7/4/1",
+        "Valid": true
+      },
+      "Name": "category 1",
+      "ParentId": {
+        "Int32": 4,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 2,
+      "Code": "CATE2",
+      "Path": {
+        "String": "7/4/2",
+        "Valid": true
+      },
+      "Name": "category 2",
+      "ParentId": {
+        "Int32": 4,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 3,
+      "Code": "CATE3",
+      "Path": {
+        "String": "7/3",
+        "Valid": true
+      },
+      "Name": "category 3",
+      "ParentId": {
+        "Int32": 7,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "Code": "CATE7",
+      "Path": {
+        "String": "",
+        "Valid": true
+      },
+      "Name": "category 7",
+      "ParentId": {
+        "Int32": 0,
+        "Valid": false
+      },
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 4,
+      "Code": "CATE4",
+      "Path": {
+        "String": "7/4",
+        "Valid": true
+      },
+      "Name": "category 4",
+      "ParentId": {
+        "Int32": 7,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 1,
+      "Code": "CATE1",
+      "Path": {
+        "String": "7/4/1",
+        "Valid": true
+      },
+      "Name": "category 1",
+      "ParentId": {
+        "Int32": 4,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 2,
+      "Code": "CATE2",
+      "Path": {
+        "String": "7/4/2",
+        "Valid": true
+      },
+      "Name": "category 2",
+      "ParentId": {
+        "Int32": 4,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 3,
+      "Code": "CATE3",
+      "Path": {
+        "String": "7/3",
+        "Valid": true
+      },
+      "Name": "category 3",
+      "ParentId": {
+        "Int32": 7,
+        "Valid": true
+      },
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    }
+  ],
+  "MonthlySegments": [
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "AttributeId": 1,
+      "Level": 2,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "AttributeId": 2,
+      "Level": 3,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "AttributeId": 3,
+      "Level": 1,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "AttributeId": 1,
+      "Level": 2,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "AttributeId": 2,
+      "Level": 3,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "CategoryId": 7,
+      "AttributeId": 3,
+      "Level": 1,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    }
+  ],
+  "MonthlySkuCategoryMappings": [
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "SellerSku": "sellerSku1",
+      "Name": "sku name 1",
+      "LatestChildCategoryId": 1,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "SellerSku": "sellerSku2",
+      "Name": "sku name 2",
+      "LatestChildCategoryId": 1,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "SellerSku": "sellerSku3",
+      "Name": "sku name 3",
+      "LatestChildCategoryId": 1,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku4",
+      "SellerSku": "sellerSku4",
+      "Name": "sku name 4",
+      "LatestChildCategoryId": 2,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku5",
+      "SellerSku": "sellerSku5",
+      "Name": "sku name 5",
+      "LatestChildCategoryId": 2,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku6",
+      "SellerSku": "sellerSku6",
+      "Name": "sku name 6",
+      "LatestChildCategoryId": 3,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku7",
+      "SellerSku": "sellerSku7",
+      "Name": "sku name 7",
+      "LatestChildCategoryId": 3,
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "SellerSku": "sellerSku1",
+      "Name": "sku name 1",
+      "LatestChildCategoryId": 1,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "SellerSku": "sellerSku2",
+      "Name": "sku name 2",
+      "LatestChildCategoryId": 1,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "SellerSku": "sellerSku3",
+      "Name": "sku name 3",
+      "LatestChildCategoryId": 1,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku4",
+      "SellerSku": "sellerSku4",
+      "Name": "sku name 4",
+      "LatestChildCategoryId": 2,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku5",
+      "SellerSku": "sellerSku5",
+      "Name": "sku name 5",
+      "LatestChildCategoryId": 2,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku6",
+      "SellerSku": "sellerSku6",
+      "Name": "sku name 6",
+      "LatestChildCategoryId": 3,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku7",
+      "SellerSku": "sellerSku7",
+      "Name": "sku name 7",
+      "LatestChildCategoryId": 3,
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    }
+  ],
+  "MonthlyVariantAttribute": [
+    {
+      "Id": 0,
+      "AttributeValueId": 1,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "AttributeId": 3,
+      "AttributeCode": "ATT3",
+      "Value": "7",
+      "DisplayValue": "12.5",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 2,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "AttributeId": 1,
+      "AttributeCode": "ATT1",
+      "Value": "1",
+      "DisplayValue": "1,2,3",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 3,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "AttributeId": 2,
+      "AttributeCode": "ATT2",
+      "Value": "4,6",
+      "DisplayValue": "123,Attribute Option 6",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 4,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "AttributeId": 3,
+      "AttributeCode": "ATT3",
+      "Value": "8",
+      "DisplayValue": "Attribute Option 8",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 5,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "AttributeId": 1,
+      "AttributeCode": "ATT1",
+      "Value": "2",
+      "DisplayValue": "Attribute Option 2",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 6,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "AttributeId": 2,
+      "AttributeCode": "ATT2",
+      "Value": "6",
+      "DisplayValue": "Attribute Option 6",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 4,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "AttributeId": 3,
+      "AttributeCode": "ATT3",
+      "Value": "8",
+      "DisplayValue": "Attribute Option 8",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 7,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "AttributeId": 1,
+      "AttributeCode": "ATT1",
+      "Value": "3",
+      "DisplayValue": "att 1,att 2,att 3",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "AttributeValueId": 8,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "AttributeId": 2,
+      "AttributeCode": "ATT2",
+      "Value": "1,2,3",
+      "DisplayValue": "1,2,3,Attribute Option 2,att 1,att 2,att 3",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    }
+  ],
+  "MonthlySkuSegmentPathMappings": [
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "MasterCategoryId": 7,
+      "SegmentPath": "1/2/3",
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "MasterCategoryId": 7,
+      "SegmentPath": "4/5/6",
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "MasterCategoryId": 7,
+      "SegmentPath": "4/7/8",
+      "MonthOfYear": "2023-10",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku1",
+      "MasterCategoryId": 7,
+      "SegmentPath": "1/2/3",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku2",
+      "MasterCategoryId": 7,
+      "SegmentPath": "4/5/6",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "Id": 0,
+      "SellerId": 1,
+      "Sku": "sku3",
+      "MasterCategoryId": 7,
+      "SegmentPath": "4/7/8",
+      "MonthOfYear": "2023-09",
+      "CreatedAt": "2023-10-01T00:00:00Z",
+      "UpdatedAt": "2023-10-01T00:00:00Z"
+    }
+  ]
+}

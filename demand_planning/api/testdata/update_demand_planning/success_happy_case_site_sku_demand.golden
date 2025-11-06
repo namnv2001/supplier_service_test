@@ -1,0 +1,78 @@
+{
+  "Resp": {
+    "message": "Thao tác thành công"
+  },
+  "SiteSkuDemands": [
+    {
+      "Id": 1,
+      "SellerId": 1,
+      "Sku": "",
+      "SiteId": 0,
+      "MonthOfYear": "2022-01",
+      "Budget": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "Forecast": {
+        "Float64": 300,
+        "Valid": true
+      },
+      "HandoverQty": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "PickupQty": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "AvgSellPrice": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "ActualSaleValue": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "PreviousMonthSale": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "AvgPurchasePrice": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "CurrentInventoryValue": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "ForecastInventoryValue": {
+        "Float64": 0,
+        "Valid": false
+      },
+      "CreatedBy": "",
+      "UpdatedBy": "",
+      "CreatedAt": "2022-01-09T01:00:00Z",
+      "UpdatedAt": "2022-01-09T01:00:00Z"
+    }
+  ],
+  "SiteGroupDemands": [],
+  "ScheduleJobs": [
+    {
+      "Id": 1,
+      "Type": "UPDATE_ALL_SITE_SKU_DEMAND",
+      "Status": 0,
+      "RetryCount": 0,
+      "Payload": {
+        "String": "{\"SellerId\":1,\"Sku\":\"\",\"SiteId\":0,\"MonthOfYear\":\"2022-01\",\"Budget\":0,\"Forecast\":20,\"NeedUpdateAllSite\":false,\"DemandIdIgnoreResetDailyForecast\":0,\"UpdatedBy\":\"email@gmail.com\"}",
+        "Valid": true
+      },
+      "Debug": {
+        "String": "",
+        "Valid": false
+      },
+      "ExecutedAt": "2022-01-09T01:00:00Z",
+      "CreatedAt": "2022-01-09T01:00:00Z",
+      "UpdatedAt": "2022-01-09T01:00:00Z"
+    }
+  ]
+}
