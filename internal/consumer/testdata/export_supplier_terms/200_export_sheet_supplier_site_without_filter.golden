@@ -1,0 +1,109 @@
+{
+  "SheetGeneral": null,
+  "SheetSiteSupplier": [
+    [
+      "Mã NCC",
+      "Tên NCC",
+      "Mã kho",
+      "Tên kho",
+      "Lead time",
+      "cut-off time",
+      "MOV",
+      "MOQ"
+    ],
+    [
+      "supplier_code",
+      "supplier_name",
+      "site_code\n- Để trống nếu áp dụng cho tất cả các kho (toàn chuỗi).\n- Nhập all để cấu hình nhanh điều khoản giống nhau cho tất cả các kho",
+      "site_name",
+      "lead_time",
+      "cut-off time",
+      "Điều khoản MOV",
+      "Điều khoản MOQ"
+    ],
+    [
+      "SUPPLIER1",
+      "supplier 1",
+      "",
+      "",
+      "10",
+      "cutoff",
+      "120000",
+      "10"
+    ],
+    [
+      "SUPPLIER1",
+      "supplier 1",
+      "SITE1",
+      "site 1",
+      "20",
+      "cutoff",
+      "11000",
+      "5"
+    ],
+    [
+      "SUPPLIER2",
+      "supplier 2",
+      "",
+      "",
+      "9",
+      "",
+      "150000"
+    ],
+    [
+      "SUPPLIER2",
+      "supplier 2",
+      "SITE2",
+      "site 2",
+      "7",
+      "",
+      "50000"
+    ]
+  ],
+  "SheetSkuSiteSupplier": [
+    [
+      "Mã NCC",
+      "Tên NCC",
+      "Mã sản phẩm",
+      "Tên sản phẩm",
+      "Mã kho",
+      "Tên kho",
+      "Lead time",
+      "MOQ",
+      "MOV"
+    ],
+    [
+      "supplier_code",
+      "supplier_name",
+      "mã sku",
+      "Không bắt buộc nhập, chỉ cần nhập mã sản phẩm khi cấu hình",
+      "site_code\n- Nhập all để cấu hình nhanh điều khoản giống nhau cho tất cả các kho",
+      "site_name",
+      "lead_time",
+      "Điều khoản MOQ",
+      "Điều khoản MOV"
+    ],
+    [
+      "SUPPLIER1",
+      "supplier 1",
+      "sellerSku1",
+      "name 1",
+      "SITE1",
+      "site 1",
+      "20",
+      "2",
+      "5000"
+    ],
+    [
+      "SUPPLIER2",
+      "supplier 2",
+      "sellerSku2",
+      "name 2",
+      "SITE2",
+      "site 2",
+      "8",
+      "3",
+      "13000"
+    ]
+  ]
+}

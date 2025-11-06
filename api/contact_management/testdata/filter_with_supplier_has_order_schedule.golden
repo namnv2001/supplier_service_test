@@ -1,0 +1,28 @@
+{
+  "message": "Thao tác thành công",
+  "data": {
+    "suppliers": [
+      {
+        "id": 3,
+        "code": "sup3",
+        "name": "supplier 3",
+        "order_schedule": {
+          "is_orderable_on_monday": true,
+          "is_orderable_on_tuesday": true,
+          "is_orderable_on_friday": true,
+          "is_orderable_on_saturday": true
+        },
+        "invoice_form_no": {
+          "value": "INVOICE"
+        },
+        "invoice_sign": {
+          "value": "INVOICE"
+        },
+        "is_active": true
+      }
+    ],
+    "pagination": {
+      "total": 1
+    }
+  }
+}

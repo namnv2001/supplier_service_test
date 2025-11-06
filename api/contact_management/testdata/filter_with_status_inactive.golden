@@ -1,0 +1,15 @@
+{
+  "message": "Thao tác thành công",
+  "data": {
+    "suppliers": [
+      {
+        "id": 5,
+        "code": "sup5",
+        "name": "supplier 5"
+      }
+    ],
+    "pagination": {
+      "total": 1
+    }
+  }
+}

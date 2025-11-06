@@ -1,0 +1,58 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_test")
+
+filegroup(
+    name = "test_data",
+    srcs = glob([
+        "testdata/**",
+        "test_data/**",
+    ]),
+)
+
+go_test(
+    name = "go_default_test",
+    srcs = [
+        "export_supplier_delivery_test.go",
+        "export_supplier_terms_test.go",
+        "export_suppliers_test.go",
+        "testmain_test.go",
+    ],
+    data = [
+        ":test_data",
+        "//app/supplychain/supplier_service:migration_files",
+    ],
+    deps = [
+        "//app/aggregator/export-service/api:go_default_library",
+        "//app/catalog/api:go_default_library",
+        "//app/supplychain/medusa-service/api:go_default_library",
+        "//app/supplychain/supplier_service/api:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/catalog_grpc:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/export_service:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/file_service:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/flagsup:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/seller_service:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/supplychain:go_default_library",
+        "//app/supplychain/supplier_service/internal/adapter/whcentral:go_default_library",
+        "//app/supplychain/supplier_service/internal/consumer/exports:go_default_library",
+        "//app/supplychain/supplier_service/internal/model:go_default_library",
+        "//app/supplychain/supplier_service/internal/provider:go_default_library",
+        "//app/supplychain/supplier_service/internal/repository:go_default_library",
+        "//app/supplychain/supplier_service/internal/rpcimpl:go_default_library",
+        "//app/supplychain/supplier_service/internal/service:go_default_library",
+        "//app/supplychain/supplier_service/internal/transformer:go_default_library",
+        "//app/supplychain/supplier_service/internal/validator:go_default_library",
+        "//app/supplychain/supplier_service/pkg/constant:go_default_library",
+        "//app/supplychain/supplier_service/pkg/faker:go_default_library",
+        "//app/supplychain/supplier_service/pkg/helper:go_default_library",
+        "//app/supplychain/supplier_service/tests:go_default_library",
+        "//app/warehouse/central-service/api:go_default_library",
+        "//library/log:go_default_library",
+        "//library/test/monkey:go_default_library",
+        "@com_github_360entsecgroup_skylar_excelize_v3//:go_default_library",
+        "@com_github_gogo_protobuf//types:go_default_library",
+        "@com_github_sebdah_goldie_v2//:go_default_library",
+        "@com_github_stretchr_testify//assert:go_default_library",
+        "@com_github_stretchr_testify//suite:go_default_library",
+        "@com_github_testcontainers_testcontainers_go//:go_default_library",
+        "@io_gorm_gorm//:go_default_library",
+    ],
+)

@@ -1,0 +1,44 @@
+{
+  "message": "Thao tác thành công",
+  "data": {
+    "suppliers": [
+      {
+        "id": 1,
+        "code": "supplier code 1",
+        "name": "supplier name 1",
+        "tax_code": "1",
+        "full_address": "full address",
+        "address": "Address",
+        "ward_code": "ward code",
+        "ward_name": "ward name",
+        "district_code": "district code",
+        "district_name": "district name",
+        "province_code": "province code",
+        "province_name": "province name",
+        "contacts": [
+          {
+            "category_ids": [
+              1,
+              2
+            ],
+            "email": {
+              "value": "email1@gmail.com"
+            },
+            "phone_number": {
+              "value": "0123456789"
+            }
+          },
+          {
+            "email": {
+              "value": "email2@gmail.com"
+            }
+          }
+        ],
+        "is_active": true
+      }
+    ],
+    "pagination": {
+      "total": 1
+    }
+  }
+}

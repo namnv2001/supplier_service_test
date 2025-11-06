@@ -1,0 +1,49 @@
+{
+  "SheetGeneral": [
+    [
+      "Mã NCC",
+      "Tên NCC",
+      "Mã số thuế",
+      "Tỉnh thành",
+      "Quận huyện",
+      "Phường/Xã",
+      "Địa chỉ chi tiết",
+      "Lịch đặt hàng",
+      "Thời hạn thanh toán(ngày)",
+      "Mẫu số hóa đơn",
+      "Ký hiệu",
+      "Số ngày cần bắt đầu đổi trả trước kỳ hạn",
+      "Thông tin liên hệ"
+    ],
+    [
+      "supplier code",
+      "supplier name",
+      "Tax ID",
+      "province",
+      "district",
+      "\nward",
+      "address",
+      "",
+      "",
+      "Form no",
+      "Invoice Sign",
+      "",
+      "abc@gmail.com - 09898899\nabdk@gmail.com -900999000"
+    ],
+    [
+      "SUPPLIER1",
+      "supplier 1",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "T2,3,6,7",
+      "",
+      "INVOICE",
+      "INVOICE"
+    ]
+  ],
+  "SheetSiteSupplier": null,
+  "SheetSkuSiteSupplier": null
+}

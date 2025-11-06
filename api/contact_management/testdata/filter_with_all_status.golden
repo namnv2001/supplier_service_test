@@ -1,0 +1,21 @@
+{
+  "message": "Thao tác thành công",
+  "data": {
+    "suppliers": [
+      {
+        "id": 4,
+        "code": "sup4",
+        "name": "supplier 4",
+        "is_active": true
+      },
+      {
+        "id": 5,
+        "code": "sup5",
+        "name": "supplier 5"
+      }
+    ],
+    "pagination": {
+      "total": 2
+    }
+  }
+}
